@@ -1,0 +1,12 @@
+ID,name,cin,age,nombre_sinistres,montant_total,anciennete,type_contrat,risque
+1,"Mohamed Ali","11111111",45,11,18300.00,1,Auto,élevé
+3,"Sami Trabelsi","33333333",50,10,33200.00,1,Habitation,élevé
+4,"Amel Jaziri","44444444",37,6,16000.00,1,Santé,élevé
+5,"Youssef Mejri","55555555",35,4,9600.00,1,Vie,moyen
+6,"Noura Gharbi","66666666",39,0,0.00,1,Santé,faible
+7,"Karim Bouazizi","77777777",47,2,6050.00,1,Vie,moyen
+8,"Ines Frikha","88888888",29,1,2500.00,1,Auto,faible
+10,"eya benghazi","13033089",25,3,7550.00,1,Auto complète,moyen
+11,"ines benzekri","78787878",143,1,1275.00,1,Habitation,faible
+13,"samir","51515151",56,0,0.00,null,,faible
+14,"hajer benghazi","13033088",21,1,5000.00,0,Auto,faible

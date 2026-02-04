@@ -1,0 +1,46 @@
+{
+  "name": "frontend-assurance",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.6",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "dayjs": "^1.11.13",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "lucide-react": "^0.525.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.2",
+    "nodemailer": "^7.0.5",
+    "path": "^0.12.7",
+    "pdfkit": "^0.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.30.1",
+    "react-signature-canvas": "^1.1.0-alpha.2",
+    "recharts": "^3.0.2",
+    "trim-canvas": "^0.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.5.0"
+  }
+}
