@@ -67,5 +67,12 @@ Application web complète de gestion d'assurance permettant de :
   ```sql
   clients, users, sinistres, contrats, scores_risque, coordonnees
 
-### **Lien du rapport **
-https://drive.google.com/file/d/1y1_Qf5Coh7kb7vkUr_mz0PVKEANCMYQf/view?usp=drive_open
+## 📄 Rapport du Projet
+
+Pour consulter le **rapport complet du projet Système de Gestion d'Assurance**, cliquez sur le lien ci-dessous :  
+
+[📑 Ouvrir le rapport PDF](https://drive.google.com/file/d/1y1_Qf5Coh7kb7vkUr_mz0PVKEANCMYQf/view?usp=drive_open)
+
+> Ce rapport détaille l’architecture complète, les fonctionnalités, les technologies utilisées, ainsi que les captures d’écran et analyses du système.
+
+
