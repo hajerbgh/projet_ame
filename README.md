@@ -64,7 +64,7 @@ Application web complète de gestion d'assurance permettant de :
 
 ### **Base de Données**
   ```sql
-  clients, users, sinistres, contrats, scores_risque, coordonnees
+  clients, users, sinistres, contrats, scores_risque 
 
 
 
