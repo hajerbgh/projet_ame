@@ -5,17 +5,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 📋 Table des Matières
-- [Aperçu](#aperçu)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Captures d'écran](#captures-décran)
-- [Structure du Projet](#structure-du-projet)
-- [API Endpoints](#api-endpoints)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
 
 ## 🎯 Aperçu
 
@@ -77,3 +66,13 @@ Application web complète de gestion d'assurance permettant de :
 ### **Base de Données**
   ```sql
   clients, users, sinistres, contrats, scores_risque, coordonnees
+
+## 📄 Rapport du Projet
+
+Pour consulter le **rapport complet du projet Système de Gestion d'Assurance**, cliquez sur le lien ci-dessous :  
+
+[📑 Ouvrir le rapport PDF](https://drive.google.com/file/d/1y1_Qf5Coh7kb7vkUr_mz0PVKEANCMYQf/view?usp=drive_open)
+
+> Ce rapport détaille l’architecture complète, les fonctionnalités, les technologies utilisées, ainsi que les captures d’écran et analyses du système.
+
+
