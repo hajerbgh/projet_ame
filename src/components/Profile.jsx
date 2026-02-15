@@ -19,11 +19,12 @@ const Profile = () => {
       navigate('/signin');
       return;
     }
+    console.log(userData);
     setUser(userData);
     setFormData({
       name: userData.nom || userData.name || '',
       email: userData.email || '',
-      phone: userData.phone || userData.phone_number || '',
+      phone_number: userData.phone || userData.phone_number || '',
       cin: userData.cin || ''
     });
   }, [navigate]);
@@ -129,7 +130,7 @@ const Profile = () => {
                         <input
                           type="tel"
                           name="phone"
-                          value={formData.phone}
+                          value={formData.phone_number}
                           onChange={handleInputChange}
                           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"
                         />
@@ -179,7 +180,7 @@ const Profile = () => {
                       </div>
                       <div>
                         <h3 className="text-sm font-medium text-gray-500">Téléphone</h3>
-                        <p className="mt-1 text-gray-900">{formData.phone || '-'}</p>
+                        <p className="mt-1 text-gray-900">{formData.phone_number || '-'}</p>
                       </div>
                       <div>
                         <h3 className="text-sm font-medium text-gray-500">CIN</h3>

@@ -18,10 +18,10 @@ const __dirname = dirname(__filename);
 const app = express();
 const PORT = 5000;
 const transporter = nodemailer.createTransport({
-  service: 'gmail', // Utilisez 'service' au lieu de host/port
+  service: 'gmail', 
   auth: {
     user: 'hajerbenghazi2003@gmail.com',
-    pass: 'kzdc ddjp node vopy' // Votre mot de passe d'application
+    pass: 'kzdc ddjp node vopy' // mot de passe d'application
   },
   tls: {
     rejectUnauthorized: false
@@ -95,7 +95,13 @@ app.post('/api/signup', upload.single('photo'), (req, res) => {
 // Login
 app.post('/api/login', (req, res) => {
   const { email, password } = req.body;
-  const sql = 'SELECT * FROM users WHERE email = ? AND password = ?';
+  const sql = `
+  SELECT id, name, email, cin, CAST(phone_number AS CHAR) AS phone_number, photo
+  FROM users
+  WHERE email = ? AND password = ?
+`;
+
+
 
   db.query(sql, [email, password], (err, results) => {
     if (err) {
@@ -105,13 +111,17 @@ app.post('/api/login', (req, res) => {
 
     if (results.length > 0) {
       const user = results[0];
+      console.log(results[0]);
+      console.log('Utilisateur récupéré:', results[0]);
+
       return res.status(200).json({
         message: 'Connexion réussie',
         user: {
           id: user.id,
           nom: user.name,
           email: user.email,
-          
+          cin: user.cin,               
+          phone_number: user.phone_number, 
           photo: user.photo,
           role: 'Employé'
         }
